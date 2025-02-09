@@ -1,4 +1,5 @@
 🦠 AI-Powered Germ Detection System
+
 A Flask-based Web App for Germ Detection & Cleanliness Analysis
 📖 Overview
 This project aims to detect germs in before & after images, process them using OpenCV, and calculate a cleanliness score based on contamination reduction. The system is designed for hygiene monitoring and awareness.
@@ -38,4 +39,4 @@ Visit: http://127.0.0.1:5000
 🤝 Contributions & Feedback
 Open to suggestions! Feel free to fork, star, and contribute!
 
-🔗 GitHub Repository: [GitHub Link]
+🔗 GitHub Repository: [https://github.com/ankit1068/Germ-Detection-System]
