@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Germ Detection</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <h1>Germ Detection</h1>
+
+    <div class="form-container">
+        <form id="uploadForm">
+            <label for="before">Upload Initial Image:</label>
+            <input type="file" id="before" name="before" accept="image/*" required><br><br>
+
+            <label for="after">Upload Post-Cleaning Image:</label>
+            <input type="file" id="after" name="after" accept="image/*" required><br><br>
+
+            <button type="submit">Process</button>
+        </form>
+    </div>
+
+    <div class="results-section">
+        <h2>Results</h2>
+        <p id="score" class="result">Cleanliness Score: N/A</p>
+
+        <div class="image-container">
+            <div class="image-box">
+                <h3>Before Cleaning</h3>
+                <img id="beforeVis" alt="Before Visualization">
+            </div>
+            <div class="image-box">
+                <h3>After Cleaning</h3>
+                <img id="afterVis" alt="After Visualization">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const formData = new FormData();
+            formData.append('before', document.getElementById('before').files[0]);
+            formData.append('after', document.getElementById('after').files[0]);
+
+            const response = await fetch('http://127.0.0.1:5000/process', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!response.ok) {
+                alert('Error processing images');
+                return;
+            }
+
+            const data = await response.json();
+
+           
+            document.getElementById('score').textContent = `Cleanliness Score: ${data.cleanliness_score.toFixed(2)}%`;
+
+            
+            document.getElementById('beforeVis').src = `data:image/png;base64,${data.before_visualization}`;
+            document.getElementById('afterVis').src = `data:image/png;base64,${data.after_visualization}`;
+        });
+    </script>
+
+</body>
+</html>
