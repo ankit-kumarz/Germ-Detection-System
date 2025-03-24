@@ -44,7 +44,7 @@ Open to suggestions! Feel free to **fork, star, and contribute**!
 
 For any questions or feedback, feel free to contact:
 
-Ankit kumar
+Author: Ankit kumar
 
 Email: your-ankitrajj1068@gmail.com
 
