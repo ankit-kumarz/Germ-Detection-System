@@ -11,7 +11,7 @@ This project aims to detect germs in **before & after** images, process them usi
 4️⃣ Displays germ-affected areas using visual markers  
 
 ## 🛠️ **Tech Stack**  
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, CSS, JavaScript 
 - **Backend:** Flask (Python)  
 - **Libraries:** OpenCV, NumPy  
 
