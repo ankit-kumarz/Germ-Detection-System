@@ -2,7 +2,7 @@
 ### **A Flask-based Web App for Germ Detection & Cleanliness Analysis**  
 
 ## 📖 **Overview**  
-This project aims to detect germs in **before & after** images, process them using **OpenCV**, and calculate a **cleanliness score** based on contamination reduction. The system is designed for hygiene monitoring and awareness.  
+This project aims to detect germs in **before & after** images, process them using **OpenCV**, and calculate a **cleanliness score** based on contamination reduction. The system is designed for hygiene monitoring and awareness. 
 
 ## ⚙️ **How It Works**  
 1️⃣ Upload two images (**before cleaning** and **after cleaning**)  
