@@ -32,7 +32,7 @@ Visit: **http://127.0.0.1:5000**
 ## 🏆 **Key Features**  
 ✔️ Germ detection using **image processing**  
 ✔️ Dynamic **cleanliness scoring**  
-✔️ Real-time **image visualization**  
+✔️ Real-time **image visualization**   
 ✔️ Flask-based **API integration** 
 
 ## 🤝 **Contributions & Feedback**  
