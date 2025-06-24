@@ -15,7 +15,7 @@ This project aims to detect germs in **before & after** images, process them usi
 - **Backend:** Flask (Python)  
 - **Libraries:** OpenCV, NumPy  
 
-## 🚀 **Setup & Installation**  
+## 🚀 **Setup & Installation**   
 ```bash
 git clone https://github.com/yourusername/germ-detection.git
 cd germ-detection
