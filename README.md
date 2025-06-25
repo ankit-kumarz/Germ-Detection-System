@@ -36,7 +36,7 @@ Visit: **http://127.0.0.1:5000**
 ✔️ Flask-based **API integration** 
 
 ## 🤝 **Contributions & Feedback**   
-Open to suggestions! Feel free to **fork, star, and contribute**! 
+Open to suggestions! Feel free to **fork, star, and contribute**!
 
 🔗 **GitHub Repository:** [https://github.com/ankit-kumarz/Germ-Detection-System]
 
