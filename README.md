@@ -30,7 +30,7 @@ Visit: **http://127.0.0.1:5000**
 ![Screenshot 2025-02-09 180849](https://github.com/user-attachments/assets/1cc2a723-0db9-42e0-a945-0d4d6f5b2585)
 
 ## 🏆 **Key Features**  
-✔️ Germ detection using **image processing**  
+✔️ Germ detection using **image processing**
 ✔️ Dynamic **cleanliness scoring**  
 ✔️ Real-time **image visualization**   
 ✔️ Flask-based **API integration** 
