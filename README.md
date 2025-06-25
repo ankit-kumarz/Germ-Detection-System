@@ -8,7 +8,7 @@ This project aims to detect germs in **before & after** images, process them usi
 1️⃣ Upload two images (**before cleaning** and **after cleaning**) 
 2️⃣ AI processes images using **grayscale conversion, thresholding, and contour detection**   
 3️⃣ Computes a **cleanliness score (Accuracy up to 90%)**  
-4️⃣ Displays germ-affected areas using visual markers
+4️⃣ Displays germ-affected areas using visual markers 
 
 ## 🛠️ **Tech Stack**  
 - **Frontend:** HTML, CSS, JavaScript 
