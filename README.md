@@ -42,7 +42,7 @@ Open to suggestions! Feel free to **fork, star, and contribute**!
 
 **Contact**
 
-For any questions or feedback, feel free to contact: 
+For any questions or feedback, feel free to contact:
  
 Author: Ankit kumar
 
