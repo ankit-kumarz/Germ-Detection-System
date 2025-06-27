@@ -19,7 +19,7 @@ This project aims to detect germs in **before & after** images, process them usi
 ```bash
 git clone https://github.com/yourusername/germ-detection.git
 cd germ-detection
-pip install -r requirements.txt
+pip install -r requirements.txt 
 python app.py
 ```
 Visit: **http://127.0.0.1:5000**  
