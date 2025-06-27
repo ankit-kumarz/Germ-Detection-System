@@ -1,4 +1,4 @@
-# **🦠 AI-Powered Germ Detection System**   
+# **🦠 AI-Powered Germ Detection System**
 ### **A Flask-based Web App for Germ Detection & Cleanliness Analysis** 
 
 ## 📖 **Overview**  
